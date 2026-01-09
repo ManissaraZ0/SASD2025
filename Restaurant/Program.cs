@@ -3,7 +3,7 @@ namespace Restaurant
     internal static class Program
     {
         /// <summary>
-        ///  By: Manissara Saejan ID. 151
+        ///  By: Manissara Saejan ID: 151
         /// </summary>
         [STAThread]
         static void Main(string[] args)
