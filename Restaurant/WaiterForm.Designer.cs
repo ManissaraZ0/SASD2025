@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    partial class WaiterForm
+    partial class WaiterForm  
     {
         /// <summary>
         ///  Required designer variable.
