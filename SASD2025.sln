@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring101", "Refactoring101\Refactoring101.csproj", "{CA1B2FCC-F1AA-41E3-B3F2-2F16A9FDE0BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{5CC043A5-96C0-422B-94CD-2C3F34F42296}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CA1B2FCC-F1AA-41E3-B3F2-2F16A9FDE0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1B2FCC-F1AA-41E3-B3F2-2F16A9FDE0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1B2FCC-F1AA-41E3-B3F2-2F16A9FDE0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC043A5-96C0-422B-94CD-2C3F34F42296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC043A5-96C0-422B-94CD-2C3F34F42296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC043A5-96C0-422B-94CD-2C3F34F42296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC043A5-96C0-422B-94CD-2C3F34F42296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
