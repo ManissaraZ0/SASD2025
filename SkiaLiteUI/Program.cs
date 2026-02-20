@@ -1,12 +1,9 @@
-﻿namespace SkiaLiteUI
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            new WinTest().Run();
+﻿namespace SkiaLiteUI;
 
-            //Console.WriteLine("Hello, World!");
-        }
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        new WinTest().Run();
     }
 }

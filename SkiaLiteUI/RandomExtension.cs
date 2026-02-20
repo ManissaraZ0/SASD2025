@@ -1,7 +1,6 @@
 ﻿using SkiaSharp;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,20 +14,9 @@ public static class RandomExtension
     {
         return new Vector(random.NextSingle() * max.X, random.NextSingle() * max.Y);
     }
-
     public static SKColor NextColor(this Random rand)
     {
-        return new SKColor(     (byte)rand.Next(256), 
-                                (byte)rand.Next(256), 
-                                (byte)rand.Next(256));
-    }
-
-    public static RectWidget CreateRectWidget(this Random rand, Vector max, Vector size)
-    {
-        var widget = new RectWidget(rand.NextVector(max), size) {
-            Color = rand.NextColor()
-        };
-        return widget;
+        return new SKColor((byte)rand.Next(256), (byte)rand.Next(256), (byte)rand.Next(256));
     }
 }
 
