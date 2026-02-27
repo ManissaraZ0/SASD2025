@@ -12,6 +12,6 @@ public class WinTest
     public void Run()
     {
         Renderer renderer = new SkiaTest();
-        new GLWindow("Title", 1920/3, 1080/3, renderer).Run();
+        new GLWindow("Manissara Saejan 151", 1920/2, 1080/2, renderer).Run();
     }
 }
